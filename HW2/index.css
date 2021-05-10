@@ -1,0 +1,207 @@
+body {
+    background-color: #fff;
+    margin: auto;
+}
+
+.background-image {
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111_1280.jpg);
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: rgba(250, 248, 249, 0.39);
+    color: #070707;
+}
+
+.subtitle {
+    font-family: monospace;
+    font-style: italic;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #313131;
+    font-size: 45px;
+    font-weight: bold;
+    -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: rgb(67, 67, 71);
+    }
+    10% {
+        color: #705d79;
+    }
+    20% {
+        color: #6a8882;
+    }
+    30% {
+        color: #9b8171;
+    }
+    40% {
+        color: rgb(105, 146, 121);
+    }
+    50% {
+        color: #34495e;
+    }
+    60% {
+        color: rgb(99, 99, 136);
+    }
+    70% {
+        color: #9383b3;
+    }
+    80% {
+        color: #a39972;
+    }
+    90% {
+        color: #5a89a8;
+    }
+    100% {
+        color: rgb(194, 150, 157);
+    }
+}
+
+.row-function {
+    margin: 10%;
+}
+
+.item-background {
+    background-color: #d3c3d24f;
+    margin: 5%;
+}
+
+.name {
+    font-size: 13px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f1f0f0d8;
+    width: 175px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-left: 25px;
+    margin-right: 20px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.price {
+    color: #8a4e80;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    height: 300px;
+    position: relative;
+    border: none;
+    background: #fff;
+    background-clip: border-box;
+    background-color: none;
+    background-origin: padding-box;
+    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 15px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 0px;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(102, 77, 101, 0.534);
+    transform: translate3d(-5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.btn {
+    font-family: Microsoft JhengHei;
+    font-size: 22px;
+    color: #705d79;
+    background: #f1f0f0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #957f99cc;
+    box-shadow: 0 10px 10px rgba(205, 204, 206, 0.637);
+    transform: translate3d(0px, -5px, 0px);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+h1 {
+    color: #212121;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.page-link {
+    color: #221025cc;
+}
+
+.page-link:hover {
+    color: #ffffffcc;
+}
+
+.page-item {
+    margin: 2px;
+}
+
+ul.pagination li a {
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    border-radius: 5px;
+    color: #8a4e80;
+}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: rgb(151, 98, 156);
+}
+
+.footer-image {
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111_1280.jpg);
+    background-attachment: fixed;
+    width: auto;
+    height: 200px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #705d79;
+}
