@@ -1,1 +1,7 @@
-新增你此次作業的github網址、說明網站 template 的來源網址，如果有 copy 別人的 code 也請在這個檔案放上 reference。以及你在這次作業中做了什麼、改了什麼
+1.網址:https://allen9322.github.io/HW2/index.html
+2.template 來源:
+Start bootstrap
+Freelancer
+https://startbootstrap.com/theme/freelancer
+4.簡介:
+主要是在顏色設計上我做出了改變，此外，我也在尋找之前的攝影作品
